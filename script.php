@@ -23,7 +23,7 @@ $client = new S3Client([
 $source = getenv('LOCAL_SOURCE_PATH');// '/path/to/source/files';
 
 // Where the files will be transferred to
-$dest = 's3://' . getenv('AWS_BUCKET') ;
+$dest = 's3://' . getenv('AWS_BUCKET')  . '/upload';
 
 // Create a transfer object
 $manager = new Transfer($client, $source, $dest);
