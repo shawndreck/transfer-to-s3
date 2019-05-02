@@ -1,7 +1,7 @@
 # Transfer FROM LOCAL DISK TO S3
 A simple script to transfer files from local path to AWS S3
 
-##HOW TO USE
+## HOW TO USE
 After git pull, run 
 ```composer install```
 
@@ -18,7 +18,7 @@ LOCAL_SOURCE_PATH="./path/to/directory"
 After completing above, run 
 ``` php script.php```
 
-###Notes:
+### Notes:
 1. Transfer is done synchronously
 2. Files are copied, original files are not deleted.
 
