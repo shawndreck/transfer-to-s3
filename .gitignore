@@ -23,20 +23,6 @@ ide-helper.php
 .DS_Store
 Thumbs.db
 
-# storage files
-storage/app/upload/shops/*
-storage/app/upload/contents/data/*
-storage/app/upload/contents/samples/*
-storage/app/upload/contents/thumbnails/*
-storage/debug/*
-storage/app/upload/import/chunks/*
-storage/app/upload/import/content_zip/*.zip
-storage/app/upload/import/content_zip/importing/*
-storage/app/upload/import/content_zip/imported/*
-/**/cdn/
-public-admin/upload-contents/*
-storage/app/orderprocess/crossone/tmp/.gitignore
-
 #--------------------------------------
 # Not Ignore
 #--------------------------------------
